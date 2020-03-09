@@ -1,0 +1,47 @@
+.main-header .sidebar-toggle{
+    padding: 0 5px!important;
+}
+.navbar:before {
+    display: none!important;
+}
+
+.table thead th{
+    text-align: center!important;
+}
+
+.table{
+    background: white;
+    text-align: center;
+    min-height: 300px;
+}
+
+.table p {
+    margin-bottom: 0;
+    word-wrap: break-word;
+}
+
+.table td:not(:last-child), .table th:not(:last-child) {
+    border-right: 2px solid #f4f4f4;
+}
+
+.table .table-th-with-search input{
+    max-width: 150px;
+    width: 100%;
+}
+
+.table-dates {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-dates > div{
+    width: 100px;
+}
+
+.table-dates .react-datepicker-popper[data-placement="bottom-start"]{
+    left: -50px!important;
+}
+
+.Checkbox {
+    top: 0!important;
+}

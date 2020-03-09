@@ -1,0 +1,17 @@
+.currency-list
+  display: flex
+  flex-wrap: wrap
+  width: 100%
+  &-item
+    flex-basis: 25%
+    height: 30px
+    display: flex
+    align-items: center
+    justify-content: center
+    border-right: 1px solid gray
+    margin-bottom: 10px
+    &:nth-child(4n)
+      border-right: none
+    span
+      padding-right: 5px
+      font-weight: bold
